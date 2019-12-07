@@ -150,6 +150,8 @@ p.no-border-right {
 
 #letter-o {
   color: #1dd2af;
+  padding: 0px;
+  margin: 0px;
 }
 
 .logo {
@@ -160,7 +162,10 @@ p.no-border-right {
 /*PHOTO SLIDER*/
 
 .photo-slider {
-  background-color: black;
+  /* background-color: black; */
+  background-image: url('./thailand.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 700px;
   height: 700px;
 }
 
@@ -272,11 +277,11 @@ h3 {
 
 .special-offers-slider {
   height: 512px;
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-column-gap: auto;
-  justify-items: center;
-  align-content: center;
+  display: flex;
+  /* grid-template-columns: repeat(6, 1fr);
+  grid-column-gap: auto; */
+  justify-content: space-around;
+  align-items: center;
 }
 
 .slider-photo {
@@ -294,17 +299,21 @@ h3 {
 .slider-photo:hover {
   background-color: #2c3e50;
   border: 5px solid #1dd1af;
-  color: white;
-  transform: scale(1.1);
+  transform: scale(1.05);
   transition-duration: 500ms;
-  
+}
+
+.slider-photo:hover h4 {
+  color: white;
+}
+
+.slider-photo:hover .more-info-btn {
+  background-color: #2c3e50;
 }
 
 .slider-photo figure {
   height: 195px;
   width: 95%;
-  padding-left: 5px;
-  border: 1px solid black;
 }
 
 .slider-bottom {
@@ -316,13 +325,13 @@ h3 {
 }
 
 figcaption {
-  ;
   font-size: 12px;
   padding-left: 10px;
 }
 
 figcaption h4 {
-  font-size: 14px
+  font-size: 14px;
+  padding-bottom: 5px;
 }
 
 .more-info-btn {
@@ -330,10 +339,15 @@ figcaption h4 {
   width: 35px;
   padding-right: 20px;
   background-color: inherit;
-  background-image: url('./3.jpg');
+  background-image: url('./3.png');
   background-size: 80% 50%;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+figure img {
+  height: 100%;
+  width: 100%;
 }
 
 /*HOLIDAY TYPE*/
