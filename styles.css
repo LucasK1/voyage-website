@@ -163,7 +163,7 @@ p.no-border-right {
 
 .photo-slider {
   /* background-color: black; */
-  background-image: url('./thailand.jpg');
+  background-image: url('./images/thailand.jpg');
   background-repeat: no-repeat;
   background-size: 100% 700px;
   height: 700px;
@@ -294,13 +294,13 @@ h3 {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  transition-duration: 500ms;
 }
 
 .slider-photo:hover {
   background-color: #2c3e50;
   border: 5px solid #1dd1af;
   transform: scale(1.05);
-  transition-duration: 500ms;
 }
 
 .slider-photo:hover h4 {
@@ -324,7 +324,7 @@ h3 {
   align-items: center;
 }
 
-figcaption {
+.slider-bottom figcaption {
   font-size: 12px;
   padding-left: 10px;
 }
@@ -338,11 +338,12 @@ figcaption h4 {
   height: 35px;
   width: 35px;
   padding-right: 20px;
-  background-color: inherit;
-  background-image: url('./3.png');
+  background-color: #eeeeee;
+  background-image: url('./images/3.png');
   background-size: 80% 50%;
   background-repeat: no-repeat;
   background-position: center;
+  transition-duration: 500ms;
 }
 
 figure img {
@@ -353,7 +354,9 @@ figure img {
 /*HOLIDAY TYPE*/
 
 .holiday-type {
-  background-color: #2c3e50;
+  /* background-image: url('./images/moscow.jpg');
+  background-size: 100% 100%; */
+  background-color: #324557;
   color: white;
   height: 520px;
   border-bottom: 1px solid black;  /*ZLIKWIDOWAĆ*/
@@ -371,6 +374,25 @@ figure img {
   padding-bottom: 10px;
 }
 
+.holiday-type-slider {
+  height: 420px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.holiday-type-photo {
+  height: 200px;
+  width: 170px;
+  margin: 100px 25px;
+  border: 1px solid white;     /*ZLIKWIDOWAĆ*/
+}
+
+
+.holiday-type-figure figcaption {
+  color: #96a8b9;
+  text-align: center;
+}
 /*HAPPY CLIENTS*/
 
 .happy-clients {
