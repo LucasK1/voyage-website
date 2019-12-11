@@ -414,6 +414,91 @@ figure img {
   background-color: #2c3e50;
   border-bottom: 1px solid #394c5f;
   font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.links-title {
+  color: #1dd2af;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+/*NEWSLETTER*/
+
+.links-container {
+  height: 190px;
+  width: 230px;
+}
+
+.newsletter-text {
+
+  padding-top: 15px;
+}
+
+.newsletter-form {
+  padding-top: 15px;
+}
+
+.newsletter-input {
+  border: none;
+  border-radius: 5%;
+  height: 22px;
+}
+
+.newsletter-btn {
+  background-color: #1dd2af;
+  border: none;
+  border-radius: 7%;
+  color: white;
+  padding: 4px 10px;
+}
+
+/*LATEST NEWS*/
+
+.news-container {
+  padding-top: 20px;
+}
+
+.picture-headline {
+  display: flex;
+  width: 90%;
+}
+
+.picture-headline img {
+  border: 1px solid white;
+  height: 35px;
+  width: 35px;
+  margin-right: 10px;
+}
+
+.news-date {
+  color: #239789;
+  font-size: 0.7em;
+}
+
+/*TAGS*/
+
+.tags-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+
+.tags-list li {
+  border: 1px solid white;
+  padding: 5px;
+  margin: 3px;
+}
+
+/*ADDRESS*/
+
+.address-text {
+  padding-top: 20px;
 }
 
 /*FOOTER*/
