@@ -162,7 +162,6 @@ p.no-border-right {
 /*PHOTO SLIDER*/
 
 .photo-slider {
-  /* background-color: black; */
   background-image: url('./images/thailand.jpg');
   background-repeat: no-repeat;
   background-size: 100% 700px;
@@ -228,17 +227,22 @@ h2 {
 .find-holidays {
   padding-right: 35px;
   border-right: 1px solid #3b4e62;
+  margin-right: 15px;
 }
 
-.when-where {
-  padding: 0 20px;
+.input-bar {
+  height: 25px;
+  width: 150px;
+  padding-left: 5px;
+  margin: 0 15px;
 }
+
 
 .search-btn {
   background-color: #1dd2af;
   border: none;
   color: white;
-  padding: 15px;
+  padding: 10px;
   margin-left: 20px;
 }
 
